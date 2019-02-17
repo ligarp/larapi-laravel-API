@@ -24,19 +24,7 @@ then run "php artisan migrate:fresh"
 DONE :)
 
 ## Larapi Endpoint
+run in terminal
+php artisan route:list to see full api endpoint
 
 
-+-----------+--------------------------------------------
- Method    | URI                                        
-+-----------+-------------------------------------------- 
- GET|HEAD  | /                                          
- GET|HEAD  | api/v1/meeting                             
- POST      | api/v1/meeting                             
- POST      | api/v1/meeting/registration                
- DELETE    | api/v1/meeting/registration/{registration} 
- GET|HEAD  | api/v1/meeting/{meeting}                   
- PUT|PATCH | api/v1/meeting/{meeting}                   
- DELETE    | api/v1/meeting/{meeting}                   
- POST      | api/v1/user/register                       
- POST      | api/v1/user/signin                         
------------+--------------------------------------------
