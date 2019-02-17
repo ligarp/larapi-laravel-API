@@ -5,7 +5,7 @@ Larapi is a simple laravel Api using laravel framework. In this case larapi will
 
 
 ## How to Install Larapi
-git clone https://github.com/ligatp/larapi-laravel-API.git
+git clone https://github.com/ligarp/larapi-laravel-API.git
 cd larapi-laravel-API
 composer install
 
@@ -25,17 +25,18 @@ DONE :)
 
 ## Larapi Endpoint
 
-+--------+-----------+--------------------------------------------+----------------------+-------------------------------------------------+------------+
-| Domain | Method    | URI                                        | Name                 | Action                                          | Middleware |
-+--------+-----------+--------------------------------------------+----------------------+-------------------------------------------------+------------+
-|        | GET|HEAD  | /                                          |                      | Closure                                         | web        |
-|        | GET|HEAD  | api/v1/meeting                             | meeting.index        | App\Http\Controllers\MeetingController@index    | api        |
-|        | POST      | api/v1/meeting                             | meeting.store        | App\Http\Controllers\MeetingController@store    | api        |
-|        | POST      | api/v1/meeting/registration                | registration.store   | App\Http\Controllers\RegisterController@store   | api        |
-|        | DELETE    | api/v1/meeting/registration/{registration} | registration.destroy | App\Http\Controllers\RegisterController@destroy | api        |
-|        | GET|HEAD  | api/v1/meeting/{meeting}                   | meeting.show         | App\Http\Controllers\MeetingController@show     | api        |
-|        | PUT|PATCH | api/v1/meeting/{meeting}                   | meeting.update       | App\Http\Controllers\MeetingController@update   | api        |
-|        | DELETE    | api/v1/meeting/{meeting}                   | meeting.destroy      | App\Http\Controllers\MeetingController@destroy  | api        |
-|        | POST      | api/v1/user/register                       |                      | App\Http\Controllers\AuthController@store       | api        |
-|        | POST      | api/v1/user/signin                         |                      | App\Http\Controllers\AuthController@signin      | api        |
-+--------+-----------+--------------------------------------------+----------------------+-------------------------------------------------+------------+
+
++-----------+--------------------------------------------
+ Method    | URI                                        
++-----------+-------------------------------------------- 
+ GET|HEAD  | /                                          
+ GET|HEAD  | api/v1/meeting                             
+ POST      | api/v1/meeting                             
+ POST      | api/v1/meeting/registration                
+ DELETE    | api/v1/meeting/registration/{registration} 
+ GET|HEAD  | api/v1/meeting/{meeting}                   
+ PUT|PATCH | api/v1/meeting/{meeting}                   
+ DELETE    | api/v1/meeting/{meeting}                   
+ POST      | api/v1/user/register                       
+ POST      | api/v1/user/signin                         
+-----------+--------------------------------------------
