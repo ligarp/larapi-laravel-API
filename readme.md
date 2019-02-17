@@ -16,7 +16,7 @@ change this
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=your database name
+DB_DATABASE=your database_name
 DB_USERNAME=database_username
 DB_PASSWORD=database_password
 
